@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background-image: url(/assets/topography.png); 
+}
+
+header {
+    background-color: #333333;
+    height: 60px;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+
+h2 {
+    color: #ff0099;
+    font-size: 24px;
+    margin:auto;
+}
+
+h3 {
+    font-size: 26px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+p {
+    font-family: 'Noto Sans Mono', monospace;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.navbar {
+width: 80%;
+height: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+nav ul li {
+display: inline-block;
+padding: 15px;
+    
+}
+nav ul li a {
+    font-family: 'Noto Sans Mono', monospace;
+    color: #ff0099; 
+    font-size: 11pt;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: underline;
+    }
+
+.introduction {
+        margin: 80px 0 0 0;
+    }
+
+.dashed {
+border: 0 none;
+border-top: 2px dashed #333333;
+width: 29px;
+margin: 40px auto;
+} 
+
+main {
+    margin: 0 10%;
+}
+.definition {
+    padding: 40px 0;
+}
+
+
+.footer {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    padding: 150px 0 0 0;
+    bottom: 0%;
+}
